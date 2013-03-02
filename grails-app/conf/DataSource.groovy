@@ -15,7 +15,7 @@ environments {
 			password = "root"
 		}
 	}
-	
+
 	staging {
 		dataSource {
 
@@ -23,7 +23,7 @@ environments {
 	}
 	production {
 		dataSource {
-
+			dbCreate = "update"
 		}
 	}
 }
