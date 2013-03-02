@@ -33,8 +33,8 @@ grails.project.dependency.resolution = {
     }
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
-
-        // runtime 'mysql:mysql-connector-java:5.1.20'
+		//compile 'org.jsoup:jsoup:1.7.2'
+         runtime 'mysql:mysql-connector-java:5.1.20'
     }
 
     plugins {
@@ -50,8 +50,6 @@ grails.project.dependency.resolution = {
         build ":tomcat:$grailsVersion"
 
         runtime ":database-migration:1.1"
-		compile 'org.jsoup:jsoup:1.7.2'
-
         compile ':cache:1.0.0'
     }
 }
